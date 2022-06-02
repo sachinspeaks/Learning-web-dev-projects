@@ -1,0 +1,24 @@
+.container
+{
+    height: 400px;
+    width: 400px;
+    background-color: lightcoral;
+    display:flex;
+    flex-wrap: wrap;
+    display: inline-flex;
+    /*flex-direction: row-reverse;*/
+    justify-content:center;
+    align-items: baseline;
+    align-content: center;
+    text-align: center;
+}
+.item
+{
+    border: dotted rgb(41, 62, 126) 2px;
+    height: 50px;
+    width: 50px;
+    /*margin: 10px;*/
+    font-size: 20pt;
+    background-color: turquoise;
+    color: floralwhite;
+}
