@@ -1,0 +1,46 @@
+.container
+{
+    height: auto;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+.item
+{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color:mediumslateblue;
+    font-size: 20px;
+    text-align: center;
+    color: khaki;
+}
+.one > .fourth
+{
+    background-color: brown;
+    position: absolute;
+    left: 150px;
+    top: 60px;
+    /*transform: translate(50px,50px);*/
+}
+.one > .fifth
+{
+    background-color: brown;
+    position: fixed;
+    left: 150px;
+    top: 60px;
+    /*transform: translate(50px,50px);*/
+}
+.container .first
+{
+    position: sticky;
+    top: 50px;
+    bottom: 50px;
+}
+.container .second
+{
+    position: sticky;
+    top: 50px;
+    bottom: 50px;
+}
